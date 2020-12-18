@@ -1,0 +1,24 @@
+请求							注释							方法名						部件名称
+-------------------------------------------------------------------------------------------------------
+/data-group-statistics		// 数据分组统计信息			    dataGroupStatistics()		dataGroupWidget
+/data-status-statistics		// 数据状态统计信息			    dataStatusStatistics()		dataStatusWidget
+/user-status-statistics		// 用户状态统计信息			    userStatusStatistics()		userStatusWidget
+/data-adjust-log			// 数据变更请求列表			    dataAdjustLogList()			dataAdjustLogWidget
+/user-access-log			// 用户访问历史列表			    userAccessLogList()			userAccessLogWidget
+/civil-voice-status			// 市民参与现状 				    civilVoiceStatus()			civilVoiceWidget
+/system-usage-status		// 系统使用现状 				    systemUsageStatus()			systemUsageWidget
+/dbcp-status				// DB连接池	                    dbcpStatus()				dbcpStatusWidget
+
+
+
+-- 主屏幕部件
+insert into widget(widget_id, name, view_order, user_id)
+values
+	(NEXTVAL('widget_seq'), 'dataGroupWidget', 1, 'admin' ),
+	(NEXTVAL('widget_seq'), 'dataStatusWidget', 2, 'admin' ),
+	(NEXTVAL('widget_seq'), 'dataAdjustLogWidget', 3, 'admin' ),
+	(NEXTVAL('widget_seq'), 'userStatusWidget', 4, 'admin' ),
+	(NEXTVAL('widget_seq'), 'systemUsageWidget', 5, 'admin' ),
+	(NEXTVAL('widget_seq'), 'civilVoiceWidget', 6, 'admin' ),
+	(NEXTVAL('widget_seq'), 'userAccessLogWidget', 7, 'admin' ),
+	(NEXTVAL('widget_seq'), 'dbcpStatusWidget', 8, 'admin' );

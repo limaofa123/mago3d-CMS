@@ -1,8 +1,8 @@
 
-form tag 전송은 하는데.... mapping 이 안되는 문제...
-나중에 해결 해야 겠다. 우선 post 로 하자.
+form tag 传送.... 不能mapping的问题..。
+以后会解决. 先用post吧.
 
-이건 json 으로 보내는건데.... .이 방법은 정석이 아닌거 같아서 해 보기가 싫다.
+这是发送 json .... 方法好像不是定式，不想尝试.
 event.preventDefault();
             var form = $(this);
             var idVal = form.find('input[name="id"]').val();

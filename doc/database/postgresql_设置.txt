@@ -1,0 +1,4 @@
+﻿postgresql 设置默认值的网站
+ - https://pgtune.leopard.in.ua/
+ - 虽然是case by case .... 比起什么都没有，还是参考一下比较好.
+

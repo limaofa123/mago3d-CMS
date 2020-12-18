@@ -1,7 +1,8 @@
 
-우린 공짜 버전
+
+我们是免费版本
 https://github.com/puikinsh/sufee-admin-dashboard
-이걸 했습니다.
+做了这个.
 
 http://eliteadmin.themedesigner.in/demos/bt4/inverse/index.html
-이건 유료라....
+这个是收费....
